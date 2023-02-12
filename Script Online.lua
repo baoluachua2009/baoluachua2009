@@ -41,12 +41,12 @@ if gg.isVisible() then
 gg.setVisible(false)
 if T ==" 👻 " then
 gg.clearResults()
-cuongmodder("libil2cpp.so","0x171DD78","0000A0E31EFF2FE1")
+Tinh("libil2cpp.so","0x171DD78","0000A0E31EFF2FE1")
 gg.clearResults()
 gg.toast("Bao On")
 T = "【✘】"
 elseif T =="【✘】" then
-cuongmodder("libil2cpp.so","0x171DD78","F04F2DE91CB08DE2")
+Tinh("libil2cpp.so","0x171DD78","F04F2DE91CB08DE2")
 gg.clearResults()
 gg.toast("bao off")
 T = " 👻 "
