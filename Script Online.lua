@@ -35,36 +35,26 @@ end
 
 T = " 👻 "
 function tinh1()
-gg.setRanges(gg.REGION_CODE_APP)
-gg.searchNumber("-498216876;-509583360;-442560580;-509587455;-527499264;-439353344;-481296384;436207622:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.processResume()
-gg.refineNumber("-509583360", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-revert = gg.getResults(52000, nil, nil, nil, nil, nil, nil, nil, nil)
-Ghost = true menuk = -1
-setup = false
-while true do
-if gg.isVisible(true) then
-menuk = 1
 gg.setVisible(false)
-end
-if menuk == 1 then gg.isVisible(false)
-menuk = -1
-if not setup then setup = not setup
-else
-if Ghost == true then
-Ghost = false
-gg.editAll("-516948194", gg.TYPE_DWORD)
-a = "Bật"
-else
-gg.editAll("-509583360", gg.TYPE_DWORD)
-a = "Tắt"
-Ghost = true
-end
-gg.toast(" "..a.. " ")
-end
+while true do
+if gg.isVisible() then
+gg.setVisible(false)
+if T ==" 👻 " then
+gg.clearResults()
+cuongmodder("libil2cpp.so","0x171DD78","0000A0E31EFF2FE1")
+gg.clearResults()
+gg.toast("Bao On")
+T = "【✘】"
+elseif T =="【✘】" then
+cuongmodder("libil2cpp.so","0x171DD78","F04F2DE91CB08DE2")
+gg.clearResults()
+gg.toast("bao off")
+T = " 👻 "
 end
 end
 end
+end
+
 function tinh2()
 M = gg.multiChoice({
 "[ Định Vị Đầu ]",
