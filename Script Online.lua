@@ -1,1 +1,1 @@
-gg.alert("[ Thông Bảo ]/nHelo")
+gg.alert("[ Thông Bảo ]")
