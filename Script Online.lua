@@ -1,1 +1,1 @@
-gg.alert("[ Thông Bảo ]")
+gg.alert("[ Thông Bảo ")
