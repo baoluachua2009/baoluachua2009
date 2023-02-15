@@ -1,1 +1,1 @@
-gg.alert("hello Hack Cơ")
+gg.alert("[ Thông Bảo ]/nHelo")
